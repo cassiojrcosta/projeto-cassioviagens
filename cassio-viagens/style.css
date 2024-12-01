@@ -22,6 +22,7 @@
 
     .botao {
         display: inline-block;
+        margin: auto;
         padding: 15px 30px;
         background-color: var(--cor4);
         color: var(--cor1);
@@ -31,6 +32,7 @@
         cursor: pointer;
         transition: background-color 0.3s ease;
         margin-bottom: 20px;
+        
       }
       
     .botao:hover {
@@ -38,10 +40,12 @@
       }
 
     .quemsomos {
-        background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+        background-image: linear-gradient(to bottom, var(--cor0), var(--cor3));
         min-height: 50px;
         text-align: center;
-        padding: 20px;
+        font-weight: bold;
+        padding: 30px;
+        margin: 10px 10px 20px 10px;
     } 
      
     body {
@@ -124,13 +128,30 @@
     
     main h1 {
         color: var(--cor5);
-        font-family: var(--fonte-android);
+        font-family: var(--fonte-destaque);
     }
     
     main h2 {
-        font-family: var(--fonte-android);
+        font-family: var(--fonte-destaque);
+        text-align: center;
+        font-size: 3em;
     }
 
+    main h3 {
+        font-family: var(--fonte-destaque);
+        text-align: center;
+        font-weight: normal;
+    }
+
+    div.video {
+        background: linear-gradient(to bottom, var(--cor3), var(--cor0));
+        
+        margin: 0px -20px 30px -20px;
+        padding: 20px;
+        padding-bottom: 59%;
+        position: relative;
+    }
+    
     div.video > iframe {
         position: absolute;
         top: 5%;
@@ -139,3 +160,27 @@
         height: 90%;
     
     }
+
+    footer {
+        background-color: var(--cor4);
+        color: white;
+        text-align: center;
+        font-size: 0.8em;
+        padding: 5px;
+    }
+    
+    footer a {
+        color: var(--cor0);
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    
+    footer a:hover {
+        text-decoration: underline;
+        color: var(--cor1);
+    }
+    
+
+
+    
+
