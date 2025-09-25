@@ -1,103 +1,110 @@
 <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Waterford — Cassio Viagens</title>
+  <link rel="shortcut icon" href="Cassio Viagens.ico" type="image/x-icon">
+  <style>
+    /* Reset básico */
+    body,table,td,a{ -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; }
+    table,td{ mso-table-lspace:0pt; mso-table-rspace:0pt; }
+    img{ -ms-interpolation-mode:bicubic; border:0; height:auto; line-height:100%; outline:none; text-decoration:none; }
+    table{ border-collapse:collapse !important; }
 
-<style>
-.cta{ text-align:center; margin:18px 0; }
-.btn{ display:inline-block; padding:12px 20px; background:#145c52; color:#ffffff; text-decoration:none; border-radius:6px; font-weight:700; }
+    /* Estilos */
+    body{ margin:0; padding:0; width:100% !important; background-color:#f6f7fb; font-family: Arial, Helvetica, sans-serif; }
+    .email-container{ max-width:600px; margin:0 auto; background:#ffffff; border-radius:8px; overflow:hidden; }
+    .header{ padding:24px; text-align:center; }
+    .logo{ max-width:180px; height:auto; display:block; margin:0 auto 8px; }
+    .preheader{ color:#6b7280; font-size:13px; margin-top:4px; }
 
+    .content{ padding:24px; color:#163f37; }
+    .headline{ font-size:18px; font-weight:700; margin:0 0 12px; color:#0f2e2a; }
+    .subhead{ color:#415a56; margin:0 0 18px; }
 
-.contacts{ padding:18px 24px 28px; font-size:14px; color:#1a2f2c; }
-.contact-row{ margin:10px 0; }
-.muted{ color:#6b7280; font-size:12px; }
+    .trip-block{ background:#f2faf7; border-radius:6px; padding:16px; margin-bottom:18px; }
+    .trip-times{ font-size:20px; font-weight:700; margin:0; }
+    .trip-loc{ font-size:16px; margin:4px 0 0; }
 
+    .price{ font-size:36px; font-weight:800; color:#145c52; margin:18px 0 8px; }
+    .price-info{ font-size:14px; color:#394a49; margin:0 0 12px; }
+    .note{ font-size:12px; color:#6b7280; }
 
-.footer{ background:#f3f6f5; padding:12px 18px; text-align:center; font-size:12px; color:#6b7280; }
+    .cta{ text-align:center; margin:18px 0; } /* CSS que centraliza o botão */
+    .btn{ display:inline-block; padding:12px 20px; background:#145c52; color:#ffffff; text-decoration:none; border-radius:6px; font-weight:700; }
 
+    .contacts{ padding:18px 24px 28px; font-size:14px; color:#1a2f2c; }
+    .contact-row{ margin:10px 0; }
+    .muted{ color:#6b7280; font-size:12px; }
 
-/* Responsivo */
-@media screen and (max-width:420px){
-.price{ font: size 50px; }
-.trip-times{ font-size:18px; }
-.email-container{ border-radius:0; }
-}
+    .footer{ background:#f3f6f5; padding:12px 18px; text-align:center; font-size:12px; color:#6b7280; }
 
-</style>
+    @media screen and (max-width:420px){
+      .price{ font-size:28px; }
+      .trip-times{ font-size:18px; }
+      .email-container{ border-radius:0; }
+    }
+  </style>
 </head>
 <body>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="shortcut icon" href="Cassio Viagens.ico" type="image/x-icon">
-<title>Waterford</title>
-<center style="width:100%; background-color:#f6f7fb; padding:20px 0;">
-<table role="presentation" width="100%" style="max-width:700px; margin:0 auto;">
-<tr>
-<td>
-<table role="presentation" class="email-container" width="100%">
+  <div style="width:100%; background-color:#f6f7fb; padding:20px 0;">
+    <table role="presentation" width="100%" style="max-width:700px; margin:0 auto;">
+      <tr>
+        <td>
+          <table role="presentation" class="email-container" width="100%">
 
+            <tr>
+              <td class="header">
+                <img src="cid:cassio_logo" alt="Cassio Viagens" class="logo" />
+                <div class="preheader">Oferta especial — Dublin (Aeroporto) → Waterford (Estação Rodoviária)</div>
+              </td>
+            </tr>
 
-<!-- HEADER -->
-<tr>
-<td class="header">
-<!-- Substitua o src abaixo pelo caminho do seu logo (URL público ou CID) -->
-<img src="cassioviagens-p.jpg" alt="Cassio Viagens" alt="center" class="logo" />
-<div class="preheader">Oferta especial — Dublin (Aeroporto) → Waterford (Estação Rodoviária)</div>
-</td>
-</tr>
+            <tr>
+              <td class="content">
+                <div class="headline">Translado conveniente para sua chegada</div>
+                <p class="subhead">Selecionamos a melhor opção de ônibus compatível com o horário do seu voo para garantir um deslocamento tranquilo.</p>
 
+                <div class="trip-block">
+                  <p class="trip-times">Sáb, 18 de outubro de 2025</p>
+                  <p class="trip-times">19:15 — <span>Aeroporto de Dublin</span></p> 
+                  <p class="trip-loc">22:15 — Estação Rodoviária de Waterford</p>
+                </div>
 
-<!-- CONTEÚDO PRINCIPAL -->
-<tr>
-<td class="content">
-<h1 class="headline">Translado conveniente para sua chegada</h1>
-<p class="subhead">Selecionamos a melhor opção de ônibus compatível com o horário do seu voo para garantir um deslocamento tranquilo.</p>
+                <div style="text-align:center;"> 
+                  <div class="price">€ 49,99</div>
+                  <div class="price-info">Valor total para <strong>02 adultos + 01 criança</strong></div>
+                  <div class="note">*Tarifa válida apenas para compras com mínimo de <strong>10 dias de antecedência</strong>.</div>
+                </div>
 
+                <div class="cta">
+                  <a href="https://wa.me/5516992161663?text=Ol%C3%A1%2C%20gostaria%20de%20reservar%20a%20oferta%20Dublin%20-%20Waterford%20(18%2F10%2F2025)%20para%202%20adultos%20e%201%20crian%C3%A7a"
+                      class="btn" target="_blank" rel="noopener noreferrer">Reservar via WhatsApp</a>
+                </div>
 
-<div class="trip-block">
-<p class="trip-times">Sáb, 18 de outubro de 2025</p>
-<p class="trip-times">19:15 — <span>Aeroporto de Dublin</span></p>
-<p class="trip-loc">22:15 — Estação Rodoviária de Waterford</p>
-</div>
+                <div class="contacts">
+                  <div class="contact-row">📞 <strong>WhatsApp:</strong> <a href="https://wa.me/5516992161663" target="_blank" style="color:#145c52; text-decoration:none;">+55 16 99216-1663</a></div>
+                  <div class="contact-row">✉️ <strong>E-mail:</strong> <a href="mailto:contato@cassioviagens.com" style="color:#145c52; text-decoration:none;">contato@cassioviagens.com</a></div>
+                  <div class="contact-row">📌 <strong>Agência:</strong> Cassio Viagens Travel Agency — O destino certo!</div>
+                  <div class="contact-row muted">CNPJ: 50.056.624/0001-07</div>
+                </div>
 
+                <p style="font-size:13px; color:#5c6b68; margin-top:6px;">Observação: As passagens informadas foram selecionadas para serem as mais próximas ao horário estimado de chegada do seu voo. Caso precise adaptar o horário do traslado, por favor, nos informe o horário real de chegada do seu voo para verificarmos alternativas.</p>
 
-<div style="text-align:center;">
-<div class="price">€ 49,99</div>
-<div class="price-info">Valor total para <strong>02 adultos + 01 criança</strong></div>
-<div class="note">*Tarifa válida apenas para compras com mínimo de <strong>10 dias de antecedência</strong>.</div>
-</div>
+              </td>
+            </tr>
 
+            <tr>
+              <td class="footer">
+                Cassio Viagens • Atendimento via WhatsApp e e-mail • Todos os direitos reservados
+              </td>
+            </tr>
 
-<div class="cta">
-<!-- Botão para WhatsApp (abre chat com sua empresa). Ajuste número/formatação se necessário -->
-<a href="https://wa.me/5516992161663?text=Olá,%20gostaria%20de%20reservar%20a%20oferta%20Dublin%20→%20Waterford%20(18/10/2025)%20-\n2%20adultos%20e%201%20criança" class="btn">Reservar via WhatsApp</a>
-</div>
-
-
-<div class="contacts">
-<div class="contact-row">📞 <strong>WhatsApp:</strong> <a href="https://wa.me/5516992161663" target="_blank" style="color:#145c52; text-decoration:none;">+55 16 99216-1663</a></div>
-<div class="contact-row">✉️ <strong>E-mail:</strong> <a href="mailto:contato@cassioviagens.com" style="color:#145c52; text-decoration:none;">contato@cassioviagens.com</a></div>
-<div class="contact-row">📌 <strong>Agência:</strong> Cassio Viagens Travel Agency — O destino certo!</div>
-<div class="contact-row muted">CNPJ: 50.056.624/0001-07</div>
-</div>
-
-
-<p style="font-size:13px; color:#5c6b68; margin-top:6px;">Observação: As passagens informadas foram selecionadas para serem as mais próximas ao horário estimado de chegada do seu voo. Caso precise adaptar o horário do traslado, por favor, nos informe o horário real de chegada do seu voo para verificarmos alternativas.</p>
-
-
-</td>
-</tr>
-
-
-<!-- RODAPÉ -->
-<tr>
-<td class="footer">
-Cassio Viagens • Atendimento via WhatsApp e e-mail • Todos os direitos reservados
-</td>
-</tr>
-
-
-</table>
-</td>
-</tr>
-</table>
-</center>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </div>
 </body>
 </html>
